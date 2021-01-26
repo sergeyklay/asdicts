@@ -33,6 +33,9 @@ tested on Python 3.7+. If you'd like to contribute to ``asdicts`` you're most we
 
 .. -support-
 
+Support
+=======
+
 Should you have any question, any remark, or if you find a bug, or if there is
 something you can't do with the ``asdicts``, please
 `open an issue <https://github.com/sergeyklay/asdicts/issues>`_.
