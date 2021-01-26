@@ -5,16 +5,16 @@
 # For the full copyright and license information, please view
 # the LICENSE file that was distributed with this source code.
 
-"""Provide dictionary specific features."""
+"""Provide utilities for working with dictionaries."""
 
 from functools import reduce
 
 
-def intersect_keys(options: dict, keys, invert=False):
-    """Select the provided keys out of an ``options`` object.
+def intersect_keys(obj: dict, keys, invert=False) -> dict:
+    """Select the provided keys out of an ``obj`` object.
 
     Selects the provided keys (or everything except the provided keys
-    for ``invert=True``) out of an ``options`` object.
+    for ``invert=True``) out of an ``obj`` object.
 
     >>> o = {'include': 'fields', 'foo': 'bar', 'baz': 42}
     >>> k = {'include', 'limit'}
@@ -24,15 +24,14 @@ def intersect_keys(options: dict, keys, invert=False):
     {'foo': 'bar', 'baz': 42}
     """
     result = {}
-
-    for key in options:
+    for key in obj:
         if (invert and key not in keys) or (not invert and key in keys):
-            result[key] = options[key]
+            result[key] = obj[key]
 
     return result
 
 
-def merge(*objects):
+def merge(*objects) -> dict:
     """Merge one or more objects into a new object.
 
     >>> merge({'a': 42}, {'foo': 'bar'})

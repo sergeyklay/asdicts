@@ -43,11 +43,11 @@ def test_path(search, expected):
 
 
 def test_intersect_keys():
-    options = {'include': 'fields', 'foo': 'bar', 'baz': 42}
+    obj = {'include': 'fields', 'foo': 'bar', 'baz': 42}
     keys = {'include', 'limit'}
 
     expected = {'include': 'fields'}
-    assert dict.intersect_keys(options, keys) == expected
+    assert dict.intersect_keys(obj, keys) == expected
 
     expected = {'foo': 'bar', 'baz': 42}
-    assert dict.intersect_keys(options, keys, True) == expected
+    assert dict.intersect_keys(obj, keys, True) == expected
