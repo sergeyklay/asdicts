@@ -71,7 +71,7 @@ jobs:
               source .venv/bin/activate ;;
           esac
 
-          python -c "import airslate; print(airslate.__version__)"
+          python -c "import asdicts; print(asdicts.__version__)"
 
       - name: Run unit tests with coverage
         run: make test-ccov
