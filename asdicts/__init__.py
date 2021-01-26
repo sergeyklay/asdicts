@@ -3,7 +3,7 @@
 # Copyright (c) 2021 Serghei Iakovlev
 #
 # For the full copyright and license information, please view
-# the LICENSE file that was distributed with this source code
+# the LICENSE file that was distributed with this source code.
 
 """The top-level module for asdicts.
 
@@ -32,4 +32,3 @@ __author__ = 'Serghei Iakovlev'
 __author_email__ = 'egrep@protonmail.ch'
 __url__ = 'https://github.com/sergeyklay/asdicts'
 __description__ = 'Easy use dictionaries with specific features'
-

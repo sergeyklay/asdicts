@@ -3,7 +3,7 @@
 # Copyright (c) 2021 Serghei Iakovlev
 #
 # For the full copyright and license information, please view
-# the LICENSE file that was distributed with this source code
+# the LICENSE file that was distributed with this source code.
 
 # Run “make build” by default
 .DEFAULT_GOAL = build
