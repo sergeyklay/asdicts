@@ -29,7 +29,7 @@ Project Information
 
 ``asdicts`` is released under the `Apache Licence 2.0 <https://choosealicense.com/licenses/apache-2.0/>`_,
 and the code on `GitHub <https://github.com/sergeyklay/asdicts>`_. It’s rigorously
-tested on Python 3.7+. If you'd like to contribute to ``asdicts`` you're most welcome!
+tested on Python 3.6+. If you'd like to contribute to ``asdicts`` you're most welcome!
 
 .. -support-
 
