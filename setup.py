@@ -128,6 +128,7 @@ CLASSIFIERS = [
 
     'Programming Language :: Python',
     'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
@@ -173,7 +174,7 @@ if __name__ == '__main__':
         platforms='any',
         include_package_data=True,
         zip_safe=False,
-        python_requires='>=3.7, <4',
+        python_requires='>=3.6, <4',
         install_requires=INSTALL_REQUIRES,
         extras_require=EXTRAS_REQUIRE,
     )
