@@ -53,7 +53,7 @@ $(VENV_ROOT):
 init: $(VENV_PYTHON)
 	@echo $(CS)Installing dev requirements$(CE)
 	$(VENV_PYTHON) -m pip install --upgrade pip setuptools wheel
-	$(VENV_PIP) install --upgrade -r $(REQUIREMENTS_DEV)
+	$(VENV_PIP) install --upgrade -r $(REQUIREMENTS)
 
 .PHONY: install
 install: init
