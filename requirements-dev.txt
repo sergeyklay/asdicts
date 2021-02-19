@@ -1,6 +1,6 @@
 check-wheel-contents
 flake8
-pylint==2.6.0
+pylint
 pytest
 pytest-cov
 twine
