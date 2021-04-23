@@ -5,9 +5,6 @@
         <a href="https://github.com/sergeyklay/asdicts/actions?workflow=CI">
             <img src="https://github.com/sergeyklay/asdicts/workflows/CI/badge.svg?branch=master" alt="CI Status" />
         </a>
-        <a href="https://codecov.io/github/sergeyklay/asdicts">
-            <img src="https://codecov.io/github/sergeyklay/asdicts/branch/master/graph/badge.svg" alt="Test Coverage" />
-        </a>
     </p>
 
 .. teaser-begin
