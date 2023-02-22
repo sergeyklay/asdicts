@@ -42,8 +42,8 @@ jobs:
       fail-fast: false
 
       matrix:
-        python: [ '3.6', '3.7', '3.8', '3.9', '3.10.0-alpha.4' ]
-        os: [ ubuntu-20.04, macos-latest, windows-2019 ]
+        python: [ '3.6', '3.7', '3.8', '3.9', '3.10', '3.10' ]
+        os: [ ubuntu-lates, macos-latest, windows-latest ]
 
     steps:
       - name: Checkout code
@@ -100,7 +100,7 @@ jobs:
         run: make lint
 
   package:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     name: Build & verify package
 
     steps:
